@@ -19,4 +19,15 @@ h1 {
   margin-bottom: 240px;
 }
 
+.tricks-wrapper {
+  display:flex;
+  flex-direction: row;
+  overflow: wrap;
 
+}
+.trick-card {
+  background-color: aliceblue;
+  height: 200px;
+  width: 200px;  
+  margin:25px;
+}
