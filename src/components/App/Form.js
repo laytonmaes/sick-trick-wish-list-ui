@@ -35,12 +35,12 @@ class Form extends Component {
                 value={this.state.name}
                 onChange={event => this.handleChange(event)}
                 />
-                <select name="stance" value={this.state.stance} id="stanceSelect" onChange={event => this.handleStance}>
+                <select name="stance" value={this.state.stance} id="stanceSelect" onChange={event => this.handleStance(event)}>
                     <option value="">--Please choose an option--</option>
                     <option value="regular">regular</option>
                     <option value="goofy">goofy</option>
                 </select>
-                <select name="obstacle" value={this.state.obstacle} id="obstacleSelect" onChange={event => this.handleObstacle}>
+                <select name="obstacle" value={this.state.obstacle} id="obstacleSelect" onChange={event => this.handleObstacle(event)}>
                     <option value="">--Please choose an option--</option>
                     <option value="flatground">flatground</option>
                     <option value="ledge">ledge</option>
